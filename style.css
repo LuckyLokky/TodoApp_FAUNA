@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(26, 102, 102);
+}
+
+.container {
+  max-width: 900px;
+}
+
+form {
+  display: flex;
+
+  margin: 20px 0;
+}
+
+li {
+  max-width: 800px;
+  padding-bottom: 20px;
+}
+
+p {
+  display: inline-block;
+  margin-left: 15px;
+  max-width: 700px;
+  word-break: break-all;
+}
+
+li button {
+  margin-right: 15px;
+}
+
+.delete {
+  background-color: rgb(206, 72, 72);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.editTodo {
+  background-color: rgb(108, 127, 216);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.submitEditTodo {
+  background-color: rgb(108, 127, 216);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.inputEditTodo {
+  width: 350px;
+  padding: 5px;
+  border-radius: 5px;
+}
